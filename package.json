@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "express": "^4.21.2",
-    "socket.io": "^4.8.1"
-  },
   "name": "simple-chat-app-socket.io",
   "version": "1.0.0",
   "description": "A simple chat app using express js, socket.io , html, css",
@@ -10,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "modules": "^0.4.0",
+    "node": "^22.15.0",
+    "socket.io": "^4.8.1"
+  }
 }
